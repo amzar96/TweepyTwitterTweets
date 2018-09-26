@@ -5,10 +5,10 @@ import csv
 csvFile = open('tweetliststreaming.csv', 'a')
 csvWriter = csv.writer(csvFile)
 
-consumer_key= 'CHky1yfiABs1YaIGdZfK98Zhg'
-consumer_secret= 'tVBpes9lDtvC1F56ov4a4y3msUmeyMYVtVAMZ962UPi93j3uaK'
-access_token='966703597625815040-aiC8veIjwoIBxTXG5kPaQHCoED2ZtnF'
-access_token_secret='CqJDVqD109b14JTe3gpznBzftWNrhpioZmRLlZUbCbPKY'
+consumer_key= ''
+consumer_secret= ''
+access_token=''
+access_token_secret=''
 
 class StreamListener(tweepy.StreamListener):
     def on_data(self, status):
